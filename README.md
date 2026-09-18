@@ -6,3 +6,6 @@ A website designed for pest oriented environmental specialist to improve SEO and
 ![HOMEPAGEHTML](https://github.com/andilemshengu10-art/WEDE5020-website/blob/main/Screenshot%202026-08-13%20200955.png?raw=true)
 ## Installations
 just select file as your default browser should activate it, chrome or Microsoft edge is recommended
+##CSS work through
+edited the proposal to include some now seen missing information
+CSS file has been created
