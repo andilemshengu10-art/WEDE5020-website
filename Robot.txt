@@ -1,0 +1,10 @@
+User-agent: *
+
+# Allow search engines to index all public pages
+Allow: /
+
+# Prevent indexing of development or private files (if they exist)
+Disallow: /Pest_script/
+
+
+Sitemap: https://www.pestorientedenvironmentalspecialists.co.za/sitemap.xml
