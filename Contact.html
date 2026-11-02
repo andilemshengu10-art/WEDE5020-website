@@ -1,12 +1,26 @@
 <!DOCTYYPE HTML>
 <HTML>
 <head>
+    <link rel="stylesheet" href="style.css">
+
 <title> Pest_oriented_environmental_specialist_Contact </Title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+content="Professional pest control services in Cape Town.">
 </head>
 
 <body>
-
+<!---banner--->
 <a href="Homepage.html">Homepage</a>
+<li><a href="About_us.html">About_us</a></li>
+<li><a href="Feedback.html">Feedback</a></li>
+<li><a href="Enquire.html">Enquire</a></li>
+<li><a href="Services.html">Services</a></li>
+
+<button onclick="toggleDarkMode()"> Dark Mode </button>
+<p id="datetime"></p>
+
+<p><img id="mainImage" src="images/pest_control_worker.jpg" alt="Pest Control Worker" width="10%" height="auto" class="center"></p>
 
 <h1>CONTACT US</h1>
 
@@ -19,17 +33,30 @@
 <p>[WhatsApp Us Now]</p>
 
 <p>BOOK A SERVICE</p>
-</p>Need fast pest control? Contact us today for a professional inspection and treatment.</p>
+<p>Need fast pest control? Contact us today for a professional inspection and treatment.</p>
+<form id="contactForm" onsubmit="return validateForm()">
+    <label for="name">Name</label>
+    <input type="text" id="name">
 
-</p>Your pest problem ends here.</p>
+    <label for="email">Email</label>
+    <input type="email" id="email">
 
+    <label for="message">Message</label>
+    <textarea id="message"></textarea>
 
+    <button type="submit">Send</button>
+</form>
+
+<p>Your pest problem ends here.</p>
 
 <p>Pest Orientated Environmental Specialists is a professional pest control company committed to protecting your property, health, and environment. We use proven pest management techniques that are safe for people, pets, and the environment while delivering powerful results, our PCO are fully qualified within field GIVING YOU THAT EXTRA PIECE OF MIND!!!!!</p>
 
 <p>Our approach is focused on long-term pest prevention, safe and compliant application methods, and consistent service delivery. We understand the impact pests can have on health, property, and business operations, and we are committed to providing solutions that are both effective and sustainable.</p>
 
+<p><button id="topBtn" onclick="topFunction()"> Top </button></p>
 
+<p><img id="secondImage" src="images/smiling_kids.jpg" alt="smiling kids" align="center" width="50%" height="auto" class="center"></p>
+<script src="Pest_script.js"></script>
 </body>
 
 </HTML>
